@@ -1,0 +1,59 @@
+
+#bannerPrincipal{
+    background-color: aqua;
+    width: 1335px;
+    height: 645px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#MenuC{
+    background-color: rgb(255, 205, 6);
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 1335px;
+    height: 38px;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+#CintMenu01{
+background-color: rgba(0, 0, 255, 0);
+margin: auto;
+width: 1500px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.nav li a {
+background-color: rgb(255, 205, 6);
+color: rgb(0, 0, 0);
+text-decoration: none;
+padding: 10px 100px;
+display: block;
+transition: 0.25s;
+}
+.nav li a:hover {
+    background-color: #faa945;
+    font-style: italic;
+}
+ul, ol {
+list-style: none;
+}
+
+.nav > li {
+    float: left;
+}
+.nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    margin-top: -267px;
+}
+.nav li:hover > ul{
+    display: block;
+    font-style: italic;
+}
